@@ -31,6 +31,12 @@ SELECT-OPTIONS: s_carrid FOR sflight-carrid,
 
 START-OF-SELECTION.
 
+" Test
+lv_value = 3.
+
+if lv_value <> '2'.
+endif.
+
   DATA: lt_flights TYPE STANDARD TABLE OF sflight.
 
 
